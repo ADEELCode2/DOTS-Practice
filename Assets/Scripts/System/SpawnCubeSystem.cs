@@ -24,7 +24,7 @@ public partial class SpawnCubeSystem : SystemBase
                 Position = new Unity.Mathematics.float3(UnityEngine.Random.Range(-5, 5), .5f, UnityEngine.Random.Range(-5, 5)),
                 Rotation = Quaternion.identity,
                 Scale = 1f
-            });
+            });//
         }
     }
 }

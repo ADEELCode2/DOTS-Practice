@@ -137,13 +137,14 @@ GameObject:
   - component: {fileID: 691300103}
   - component: {fileID: 691300107}
   - component: {fileID: 691300108}
+  - component: {fileID: 691300109}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &691300103
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -258,6 +259,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194862ee82130d54c83c20162fd2c9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &691300109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691300102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75706aaad81fc9a4f928bdd5398bbaf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1586426207
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 6579655352796621098, guid: c46581f4a83fd554786019bd9dfb2b73,
     type: 3}
-  amountToSpawn: 6000
+  amountToSpawn: 5
 --- !u!4 &1586426209
 Transform:
   m_ObjectHideFlags: 0
